@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Padhang WordPress Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-18 11:54+0700\n"
-"PO-Revision-Date: 2014-09-27 21:58+0800\n"
+"PO-Revision-Date: 2014-09-27 23:38+0800\n"
 "Last-Translator: Jarvis Lin <jarvislin0202@gmail.com>\n"
 "Language-Team: Rizqy Hidayat <rizqy22@gmail.com>\n"
 "Language: zh_TW\n"
@@ -48,7 +48,7 @@ msgstr "糟糕! 找不到此頁面."
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
-msgstr "這裡似乎找不到任何東西, 試試看下列連結或是搜尋看看."
+msgstr "這裡似乎找不到任何東西, 試試看下列鏈結或是搜尋看看."
 
 #: footer.php:31
 msgid "http://wordpress.org/"
@@ -94,17 +94,17 @@ msgstr "作者: %s"
 #: archive.php:30
 #, php-format
 msgid "Day: %s"
-msgstr ""
+msgstr "%s日"
 
 #: archive.php:33
 #, php-format
 msgid "Month: %s"
-msgstr ""
+msgstr "%s月"
 
 #: archive.php:36
 #, php-format
 msgid "Year: %s"
-msgstr ""
+msgstr "%s年"
 
 #: archive.php:39
 msgid "Asides"
@@ -144,11 +144,11 @@ msgstr "閒聊"
 
 #: archive.php:66
 msgid "Archives"
-msgstr ""
+msgstr "文章"
 
 #: comments.php:46
 msgid "Comment navigation"
-msgstr ""
+msgstr "迴響頭像"
 
 #: comments.php:47
 msgid "&larr; Older Comments"
@@ -164,7 +164,7 @@ msgstr "評論已關閉"
 
 #: header.php:28
 msgid "Skip to content"
-msgstr ""
+msgstr "略過"
 
 #: functions.php:30
 msgid "Primary Menu"
@@ -172,7 +172,7 @@ msgstr "主要選單"
 
 #: functions.php:31
 msgid "Social Menu"
-msgstr "社群網站選單"
+msgstr "社交選單"
 
 #: functions.php:61
 msgid "Left Widget Area"
@@ -189,7 +189,7 @@ msgstr "選單"
 #: git/inc/extras.php:67 inc/extras.php:67
 #, php-format
 msgid "Page %s"
-msgstr ""
+msgstr "第%s頁"
 
 #: git/inc/extras.php:120 inc/extras.php:120
 msgid "Pingback:"
@@ -217,15 +217,15 @@ msgstr ""
 
 #: git/inc/admin-page.php:28 inc/admin-page.php:59
 msgid "Description"
-msgstr ""
+msgstr "介紹"
 
 #: git/inc/admin-page.php:29
 msgid "Documentations"
-msgstr ""
+msgstr "文件"
 
 #: git/inc/admin-page.php:30 inc/admin-page.php:61
 msgid "Changelog"
-msgstr ""
+msgstr "更新日誌"
 
 #: git/inc/admin-page.php:37 inc/admin-page.php:68
 msgid ""
@@ -235,78 +235,81 @@ msgid ""
 "featured bright white color with dark background. It also easily customized "
 "via the theme customizer. Stand out your content."
 msgstr ""
+"極簡設計的佈景, 提供了響應式主題, 主要區塊下有2個工具列, 並且有社交選單, 大背"
+"景圖, 自訂logo跟選單. 對了, Padhang是爪哇語的光明之意. 這個主題的特色就是明亮"
+"的白色與深色背景. 並可以透過外觀自訂輕鬆設定, 讓您的網站更加出色."
 
 #: git/inc/admin-page.php:39 inc/admin-page.php:70
 msgid "Features"
-msgstr ""
+msgstr "特色"
 
 #: git/inc/admin-page.php:41 inc/admin-page.php:72
 msgid "Minimalist-content-focused design"
-msgstr ""
+msgstr "極簡設計"
 
 #: git/inc/admin-page.php:42 inc/admin-page.php:73
 msgid "Responsive layout"
-msgstr ""
+msgstr "響應式主題"
 
 #: git/inc/admin-page.php:43 inc/admin-page.php:74
 msgid "Custom header"
-msgstr ""
+msgstr "自訂header"
 
 #: git/inc/admin-page.php:44 inc/admin-page.php:75
 msgid "Custom background"
-msgstr ""
+msgstr "自訂背景"
 
 #: git/inc/admin-page.php:45 inc/admin-page.php:76
 msgid "Custom color via theme customizer"
-msgstr ""
+msgstr "透過外觀自訂設定顏色"
 
 #: git/inc/admin-page.php:46 inc/admin-page.php:77
 msgid "Custom menu"
-msgstr ""
+msgstr "自訂選單"
 
 #: git/inc/admin-page.php:47 inc/admin-page.php:78
 msgid "Social menu"
-msgstr ""
+msgstr "社交選單"
 
 #: git/inc/admin-page.php:48 inc/admin-page.php:79
 msgid "2 widget areas"
-msgstr ""
+msgstr "2個工具列"
 
 #: git/inc/admin-page.php:49 inc/admin-page.php:80
 msgid "Translation-ready"
-msgstr ""
+msgstr "準備翻譯"
 
 #: git/inc/admin-page.php:52 inc/admin-page.php:83
 msgid "Support and Contribute"
-msgstr ""
+msgstr "支援及貢獻"
 
 #: git/inc/admin-page.php:54 inc/admin-page.php:85
 #, php-format
 msgid "Any problems? Go to <a href=\"%1$s\">theme support forum</a>"
-msgstr ""
+msgstr "有問題嗎? 來<a href=\"%1$s\">主題支援討論區</a>"
 
 #: git/inc/admin-page.php:55 inc/admin-page.php:86
 #, php-format
 msgid "Or you can also <a href=\"%1$s\">open new issue on Github</a>"
-msgstr ""
+msgstr "您也可以<a href=\"%1$s\">在Github發表問題</a>"
 
 #: git/inc/admin-page.php:56 inc/admin-page.php:87
 #, php-format
 msgid "And thank you if you <a href=\"%1$s\">rate or review Padhang</a>"
-msgstr ""
+msgstr "並感謝您<a href=\"%1$s\">瀏覽或為Padhang評分</a>"
 
 #: git/inc/admin-page.php:57 inc/admin-page.php:88
 #, php-format
 msgid "Check out the <a href=\"%1$s\">Github repo</a> to contribute"
-msgstr ""
+msgstr "查看<a href=\"%1$s\">Github repo</a>來付出一點心力"
 
 #: git/inc/admin-page.php:60 inc/admin-page.php:91
 msgid "Resources"
-msgstr ""
+msgstr "資源"
 
 #: git/inc/admin-page.php:71
 msgid "Customizing"
-msgstr ""
+msgstr "自訂"
 
 #: git/inc/admin-page.php:72
 #, php-format
@@ -316,6 +319,9 @@ msgid ""
 "text, and others. You can also <a href=\"%2$s\">upload your logo</a> and "
 "your <a href=\"%3$s\">custom background image</a>."
 msgstr ""
+"Padhang可以透過<a href=\"%1$s\">自訂外觀</a>改變顏色, 背景圖片以及透明度, "
+"wrapper寬度, 底部文字及其他設定.  您也可以<a href=\"%2$s\">上傳您的logo</a>以"
+"及您的<a href=\"%3$s\">自訂背景圖片</a>."
 
 #: git/inc/admin-page.php:75
 #, php-format
@@ -325,14 +331,17 @@ msgid ""
 "can start to add your social links and the icon will automatically rendered "
 "based on its domain name."
 msgstr ""
+"要設定社群網站網址, 請到<a href=\"%1$s\">外觀 &rarr; 選單</a>, 新增一個選單, "
+"並選擇佈景主題的位置為<b>社交選單(Social Menu)</b>, 您便可以開始新增您社群網"
+"站的網址, icon圖像會自動幫您套上."
 
 #: git/inc/customizer.php:33 inc/customizer.php:166
 msgid "Accent Color"
-msgstr ""
+msgstr "強調顏色"
 
 #: git/inc/customizer.php:44
 msgid "Background Transparency"
-msgstr ""
+msgstr "背景透明度"
 
 #: git/inc/customizer.php:51
 msgid "Padhang Extras"
@@ -340,7 +349,7 @@ msgstr ""
 
 #: git/inc/customizer.php:61 inc/customizer.php:56
 msgid "Wrapper width (%)"
-msgstr ""
+msgstr "Wrapper的寬度(%)"
 
 #: git/inc/customizer.php:73 inc/customizer.php:68
 msgid "Footer text"
@@ -348,7 +357,7 @@ msgstr "底部文字"
 
 #: git/inc/template-tags.php:23
 msgid "Posts navigation"
-msgstr ""
+msgstr "文章圖像"
 
 #: git/inc/template-tags.php:27
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
@@ -360,7 +369,7 @@ msgstr "新文章 <span class=\"meta-nav\">&rarr;</span>"
 
 #: git/inc/template-tags.php:56
 msgid "Post navigation"
-msgstr ""
+msgstr "文章圖像"
 
 #: git/inc/template-tags.php:85
 #, php-format
@@ -372,17 +381,17 @@ msgstr ""
 
 #: inc/admin-page.php:32
 msgid "Hey, Padhang just got some major update!"
-msgstr ""
+msgstr "嘿, Padhang有些大更新哦!"
 
 #: inc/admin-page.php:33
 msgid "In this new version, I've made some (big) changes. Here some of them:"
-msgstr ""
+msgstr "在這個新版本, 我做了些(大)修改. 如下: "
 
 #: inc/admin-page.php:35
 msgid ""
 "Custom header support is removed and please welcome the new logo and favicon "
 "uploader. Try it from customizer."
-msgstr ""
+msgstr "自訂header已經被移除了, 歡迎使用外觀自訂來上傳logo跟favicon."
 
 #: inc/admin-page.php:36
 msgid ""
@@ -390,26 +399,32 @@ msgid ""
 "background options. But if you want the old stretched, you can activate it "
 "from the customizer."
 msgstr ""
+"目前預設背景是沒有強制縮放的, 這可以在背景選項設定. 如果您想使用舊的縮放方"
+"式, 可以從外觀自訂啟用這個選項."
 
 #: inc/admin-page.php:37
 msgid "Social menu now works just fine."
-msgstr ""
+msgstr "目前社交選單運行良好."
 
 #: inc/admin-page.php:38
 msgid ""
 "Some new styles for navigation, form elements, blockquote, etc. Also a brand "
 "new mobile menu."
 msgstr ""
+"有些新的外觀設定, 像是圖式, 表格元素, 引言......等. 還有一個全新的行動裝置選"
+"單."
 
 #: inc/admin-page.php:39
 msgid "See all changes &rarr;"
-msgstr ""
+msgstr "來看所有更新 &rarr;"
 
 #: inc/admin-page.php:41
 msgid ""
 "I say sorry if you just updated Padhang and some of your change broken and "
 "have to reconfigure it. But I'm sure you'll love this update too. :)"
 msgstr ""
+"如果這次更新讓您的設定毀損了, 要去重新設定, 我在此先說聲抱歉. 但我肯定您也會"
+"愛上這次的更新. :)"
 
 #: inc/admin-page.php:60
 msgid "F.A.Q"
@@ -417,7 +432,7 @@ msgstr ""
 
 #: inc/admin-page.php:103
 msgid "How do I customize this theme?"
-msgstr ""
+msgstr "我該如何自訂這個佈景主題?"
 
 #: inc/admin-page.php:104
 #, php-format
@@ -426,6 +441,9 @@ msgid ""
 "background image, overlay, wrapper width, footer text, and others. You can "
 "also upload your logo and favicon. <a href=\"%s\">Go to theme customizer</a>."
 msgstr ""
+"Padhang可以透過自訂外觀來改變顏色, 背景圖片以及透明度, wrapper寬度, 底部文字"
+"及其他設定.  您也可以上傳您的logo以及您的favicon. <a href=\"%s\">來去自訂外觀"
+"</a>."
 
 #: inc/admin-page.php:107
 #, php-format
@@ -481,15 +499,15 @@ msgstr "標語顏色"
 
 #: inc/customizer.php:176
 msgid "Overlay Color (%)"
-msgstr ""
+msgstr "Overlay的顏色(%)"
 
 #: inc/customizer.php:187
 msgid "Overlay Transparency"
-msgstr ""
+msgstr "Overlay透明度"
 
 #: inc/customizer.php:196
 msgid "Set 0 to disable overlay."
-msgstr ""
+msgstr "設定0即可停用overlay效果"
 
 #: inc/customizer.php:208
 msgid "Make background image covering the page"
