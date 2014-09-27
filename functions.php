@@ -17,6 +17,8 @@ if ( ! function_exists( 'padhang_setup' ) ) :
  * Sets up theme defaults and registers support for various WordPress features.
  */
 function padhang_setup() {
+	
+	$domain = 'padhang';
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -43,6 +45,9 @@ function padhang_setup() {
 		'comment-form',
 		'gallery',
 	) );
+	
+	// Load translation files
+	load_theme_textdomain( $domain, get_template_directory() . '/languages' );
 
 	// This theme uses its own gallery styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );
